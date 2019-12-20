@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>C#</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        aside {
+            background: #f0f0f0;
+            padding: 10px;
+            width: 200px;
+            float: left;
+            box-shadow: 5px 7px 5px rgba(0,0,0,0.6);
+            border-radius: 10px;
+        }
+        aside:hover{
+            background: whitesmoke;
+            padding: 10px;
+            width: 200px;
+            float: left;
+            box-shadow: 5px 7px 5px blue;
+            border-radius: 10px;
+        }
+        .shadow{
+            width: 200px;
+            margin-top: 10px;
+            border:1px solid #333;
+            background: #f0f0f0;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 10px 10px 5px;
+            border-radius: 10px;
+        }
+        .shadow:hover{
+            width: 200px;
+            margin-top: 30px;
+            border:1px solid #333;
+            background: #f0f0f0;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 10px 10px 5px blue;
+            border-radius: 10px;
+        }
+        @media (max-width: 400px){
+            .shadow{
+                width: 150px;
+                border:1px solid #333;
+                margin-top: 100px;
+                margin-left: 0px;
+                background: #f0f0f0;
+                padding: 10px;
+                border-radius: 10px;
+                box-shadow: 5px 7px 5px rgba(0,0,0,0.6);
+                border-radius: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="bottomMenu">
+            <a href="index.html">	<img src="Untitled.png" alt="Шапка"></a>
+        </nav>
+    </header>
+    <div>
+        <aside class="list-group-item">
+            <a href="info.html"><p>Преимущества C#</p></a>
+            <a href="history.html"><p>История развития C#</p></a>
+
+        </aside>
+    </div>
+    <div  class = "col-md-1">
+        <div class = "shadow">
+            <h4>Преимущества C#</h4>
+            <img src="c.jpg" alt="просто Картинка" width="100" height="111" class = "img-responsive">
+            <p>C# является объектно-ориентированным языком, но поддерживает также и компонентно-ориентированное программирование. Разработка современных <a href="info.html">Читать</a> </p>
+        </div>
+    </div>
+    <div class = "col-md-3 col-md-push-1 ">
+        <div class = "shadow">
+            <h4>История развития C#</h4>
+            <img src="evolution.jpg" alt="просто Картинка" width="100" height="111" class = "img-responsive">
+            <p>Первая бета-версия C# 1.0 увидела свет летом 2000 года, а в феврале 2002 с Microsoft Visual Studio вышла окончательная версия языка. Версия 1.0 вобрала в себя лучшие стороны предшествующих ей популярных языков программирования C, Java и C++.<a href="history.html">Читать</a></p>
+        </div>
+    </div>
+</body>
+</html>
